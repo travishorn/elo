@@ -1,0 +1,25 @@
+{
+  "name": "elo",
+  "version": "0.1.0",
+  "exports": "./src/index.js",
+  "scripts": {
+    "test": "vitest",
+    "lint": "eslint . && tsc --noEmit -p jsconfig.json",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "Travis Horn <travis@travishorn.com> (https://travishorn.com/)",
+  "license": "MIT",
+  "type": "module",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@vitest/coverage-v8": "^2.1.8",
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.14.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
